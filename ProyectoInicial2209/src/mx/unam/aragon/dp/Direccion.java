@@ -1,6 +1,9 @@
+
 package mx.unam.aragon.dp;
 
-public class Direccion {
+import java.io.Serializable;
+
+public class Direccion implements Serializable{
     private String calle;
     private String numero;
     private String colonia;
@@ -72,6 +75,9 @@ public class Direccion {
     public String toString() {
         return "Direccion{" + "calle=" + calle + ", numero=" + numero + ", colonia=" + colonia + ", delegacion=" + delegacion + ", estado=" + estado + ", cp=" + cp + '}';
     }
+
+
+    
     
     
     

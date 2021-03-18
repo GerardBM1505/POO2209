@@ -1,6 +1,8 @@
 package mx.unam.aragon.dp;
 
-public class Persona {
+import java.io.Serializable;
+
+public class Persona implements Serializable{
     private String nombre;
     private String apPaterno;
     private String apMaterno;
@@ -62,8 +64,10 @@ public class Persona {
     public String toString() {
         return "Persona{" + "nombre=" + nombre + ", apPaterno=" + apPaterno + ", apMaterno=" + apMaterno + ", edad=" + edad + ", curp=" + curp + '}';
     }
+
     
     
-  
+    
+    
     
 }
