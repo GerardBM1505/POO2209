@@ -49,7 +49,7 @@ public class Mouse {
 
     @Override
     public String toString() {
-        return "Mouse{" + "marca=" + marca + ", modelo=" + modelo + ", tipo=" + tipo + '}';
+        return "Mouse:  " + "   " + marca + "   " + modelo + "   " + tipo ;
     }
     
     

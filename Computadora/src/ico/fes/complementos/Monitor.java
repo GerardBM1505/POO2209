@@ -49,7 +49,7 @@ public class Monitor {
 
     @Override
     public String toString() {
-        return "Monitor{" + "marca=" + marca + ", modelo=" + modelo + ", pulgadas=" + pulgadas + '}';
+        return "Monitor:   " + "   " + marca + "   " + modelo + "   " + pulgadas + "´´";
     }
     
     

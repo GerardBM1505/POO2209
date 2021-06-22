@@ -51,7 +51,7 @@ public class CPU {
 
     @Override
     public String toString() {
-        return "CPU{" + "marca=" + marca + ", modelo=" + modelo + ", velocidadProcesador=" + velocidadProcesador + '}';
+        return "CPU:  " +  marca + "   " + modelo + "  " + velocidadProcesador + " GHz";
     }
     
     

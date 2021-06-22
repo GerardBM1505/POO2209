@@ -59,7 +59,8 @@ public class Teclado {
 
     @Override
     public String toString() {
-        return "Teclado{" + "marca=" + marca + ", modelo=" + modelo + ", numeroDeTeclas=" + numeroDeTeclas + ", multimedia=" + multimedia + '}';
+        return "Teclado:   " + "   " + marca + "   " + modelo + "   " + 
+                numeroDeTeclas + " teclas   " + multimedia + " multimedia";
     }
     
     

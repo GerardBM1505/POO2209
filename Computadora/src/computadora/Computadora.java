@@ -33,8 +33,14 @@ public class Computadora {
                 mo1.getModelo() + "   " + mo1.getTipo() );
         System.out.println( "Teclado:   " + t1.getMarca() + "   " + 
                 t1.getModelo() + "   " + t1.getNumeroDeTeclas() + " teclas   " +
-                t1.getMultimedia() + " multimedia" );
-        
+                t1.getMultimedia() + " multimedia\n"  );
+         // Se puede usar cuando no se edita el toString
+       
+        System.out.println( c1 );
+        System.out.println( m1 );
+        System.out.println( mo1 );
+        System.out.println( t1 );
+        //Editando toString
     }
     
 }
